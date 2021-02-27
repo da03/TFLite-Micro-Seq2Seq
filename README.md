@@ -18,7 +18,9 @@ If you want to deploy the model to Arduino, [this post](https://medium.com/tenso
 
 ## Deployment to Arduino
 
-The Arduino project can be found at [Arduino_Project](Arduino_Project). Compile and upload it to MCUs (we recommend using PlatformIO in VSCode, a tutorial can be found [here](https://maker.pro/arduino/tutorial/how-to-use-platformio-in-visual-studio-code-to-program-arduino)), and run. Note that there's already a pretrained model in [Arduino_Project/src](Arduino_Project/src) so you can directly use it for a simple number-to-word task. 
+The Arduino project can be found at [Arduino_Project](Arduino_Project). Compile and upload it to MCUs (we recommend using PlatformIO in VSCode, a tutorial can be found [here](https://maker.pro/arduino/tutorial/how-to-use-platformio-in-visual-studio-code-to-program-arduino)), and run. Note that there's already a pretrained model in [Arduino_Project/src](Arduino_Project/src) so you can directly use it for a simple number-to-word task.
+
+Upon seeing "Input:", enter a number and hit Enter, and the model will run inference and output the result. Note that the program will not echo back the digits you typed in until Enter is hit.
 
 ## Training
 
