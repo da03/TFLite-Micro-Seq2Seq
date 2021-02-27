@@ -14,7 +14,7 @@ This repo provides the full training and deployment code for a number-to-word ta
 
 ## Dependency for Deployment to Arduino
 
-If you want to deploy the model to Arduino, [this post](https://medium.com/tensorflow/how-to-get-started-with-machine-learning-on-arduino-7daf95b4157) shows how to setup the environment for running tensorflow lite micro on Arduino.
+If you want to deploy the model to Arduino, [this post](https://medium.com/tensorflow/how-to-get-started-with-machine-learning-on-arduino-7daf95b4157) shows how to setup the environment for running TFLite Micro on Arduino.
 
 ## Deployment to Arduino
 
