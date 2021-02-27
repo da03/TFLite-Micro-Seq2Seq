@@ -2,7 +2,7 @@
 
 Attentional sequence-to-sequence modeling (based on LSTMs) implemented in TFLite Micro, tested on Arduino Nano 33 BLE. Sequence-to-Sequence models can learn the mapping from a sequence of inputs to a sequence of outputs, and have been widely used in many applications including machine translation and speech recognition.
 
-This repo provides a trained model for a number-to-word task, where the model is given a number represented as a sequence of digits, and the goal is to convert it to English words (this task can be solved by writing simple rules, but here we use it to demonstrate the ability of a learning-based approach).
+This repo provides the full training and deployment code for a number-to-word task, where the model is given a number represented as a sequence of digits, and the goal is to convert it to English words (this task can be solved by writing simple rules, but here we use it to demonstrate the ability of a learning-based approach).
 
 ## Model Architecture
 
