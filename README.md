@@ -14,6 +14,10 @@ This repo provides a trained model for a number-to-word task, where the model is
 
 ## Deployment to Arduino
 
+### Dependency
+
+[This post](https://medium.com/tensorflow/how-to-get-started-with-machine-learning-on-arduino-7daf95b4157) shows how to setup the environment for running tensorflow lite micro on Arduino.
+
 The Arduino project can be found at [Arduino_Project](Arduino_Project). Compile and upload it to MCUs (we recommend using PlatformIO in VSCode, a tutorial can be found [here](https://maker.pro/arduino/tutorial/how-to-use-platformio-in-visual-studio-code-to-program-arduino)), and run. Note that there's already a pretrained model in [Arduino_Project/src](Arduino_Project/src) so you can directly use it for a simple number-to-word task. 
 
 ## Training
