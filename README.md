@@ -12,6 +12,12 @@ This repo provides the full training and deployment code for a number-to-word ta
 
 ![Demo](img/demo.gif)
 
+## Training
+
+The code for training a model and converting it to TFLite Micro can be found under folder [notebooks](notebooks/TFLite_Micro_Seq2Seq_LSTM_w_attn_&_bidirectional_encoder.ipynb), or at this Google Colab Notebook: https://colab.research.google.com/drive/1d8Kz6P-7O0OAyFNSAoR0C2V48vldcjfA?usp=sharing
+
+After training, two files will be generated: `c_src/model.h` and `c_src/model.cpp`. Download these two files and put them in the directory `Arduino_Project/src`.
+
 ## Dependency for Deployment to Arduino
 
 If you want to deploy the model to Arduino, [this post](https://medium.com/tensorflow/how-to-get-started-with-machine-learning-on-arduino-7daf95b4157) shows how to setup the environment for running TFLite Micro on Arduino.
@@ -22,11 +28,6 @@ The Arduino project can be found at [Arduino_Project](Arduino_Project). Compile 
 
 Upon seeing "Input:", enter a number and hit Enter, and the model will run inference and output the result. Note that the program will not echo back the digits you typed in until Enter is hit.
 
-## Training
-
-The code for training a model and converting it to TFLite Micro can be found at this Google Colab Notebook: https://colab.research.google.com/drive/1d8Kz6P-7O0OAyFNSAoR0C2V48vldcjfA?usp=sharing
-
-After training, two files will be generated: `c_src/model.h` and `c_src/model.cpp`. Download these two files and put them in the directory `Arduino_Project/src`.
 
 ## Video Presentation
 
