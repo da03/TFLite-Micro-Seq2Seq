@@ -14,7 +14,7 @@ This repo provides the full training and deployment code for a number-to-word ta
 
 ## Training
 
-The code for training a model and converting it to TFLite Micro can be found under folder [notebooks](notebooks/TFLite_Micro_Seq2Seq_LSTM_w_attn_&_bidirectional_encoder.ipynb), or at this Google Colab Notebook: https://colab.research.google.com/drive/1d8Kz6P-7O0OAyFNSAoR0C2V48vldcjfA?usp=sharing. In the notebook we also provide script for directly running inference in TFLite, such that you can directly test your model in the notebook before deploying to MCUs.
+The code for training a model and converting it to TFLite Micro can be found under folder [notebooks](notebooks/TFLite_Micro_Seq2Seq_LSTM_w_attn_&_bidirectional_encoder.ipynb), or at this Google Colab Notebook: https://colab.research.google.com/drive/1d8Kz6P-7O0OAyFNSAoR0C2V48vldcjfA?usp=sharing. In the notebook we also provide script for directly running inference in TFLite, such that you can test your model in the notebook before deploying to MCUs.
 
 After training, two files will be generated: `c_src/model.h` and `c_src/model.cpp`. If you want to deploy it to Arduino, download these two files and put them in the directory `Arduino_Project/src`.
 
